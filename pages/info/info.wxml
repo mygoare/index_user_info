@@ -1,11 +1,11 @@
 <form bindsubmit="formSubmit">
   <view class="section">
     <view class="section__title">Question1:</view>
-    <input name="input" placeholder="Put your Answer1 here" />
+    <input name="answer1" value="{{answer1}}" placeholder="Put your Answer1 here" />
   </view>
   <view class="section">
     <view class="section__title">Question2:</view>
-    <input name="input" placeholder="Put your Answer2 here" />
+    <input name="answer2" value="{{answer2}}" placeholder="Put your Answer2 here" />
   </view>
   <view class="btn-area">
     <button form-type="submit">Submit</button>
