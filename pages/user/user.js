@@ -13,7 +13,7 @@ Page({
 
     this.setData({
       title: isEmpty(userInfo) ? 'No Info' : 'Has Info',
-      type: userInfoCollected ? 'success' : 'clear',
+      type: userInfoCollected ? 'success' : '',
     })
   }
 })
